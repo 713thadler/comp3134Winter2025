@@ -1,0 +1,29 @@
+ip : 159.203.29.102
+https://github.com/713thadler/comp3134Winter2025
+
+
+1. **Definition of Server Port:**
+A **server port** is a communication endpoint in a network. It is a logical access point used by the operating system and software applications to establish a connection and route data to specific services or processes running on a server. Ports are identified by port numbers, which allow devices and applications to send and receive data over a network.
+
+2. **What is Server Port Range?**
+The **server port range** refers to the set of port numbers that can be used by server applications for communication. These are typically divided into three categories:
+- **Well-known ports** (0–1023): Reserved for common protocols like HTTP (80), FTP (21), and DNS (53).
+- **Registered ports** (1024–49151): Used by user applications or programs that aren’t system-defined, such as games or certain services.
+- **Dynamic or Private ports** (49152–65535): Used dynamically for client-side communication and temporary connections.
+
+3. **How Many Bits Does a Port Number Represent?**
+Port numbers are represented as **16-bit unsigned integers**, allowing a total of **65,536** different ports (from 0 to 65535).
+
+4. **10 Common Server Ports:**
+Here are 10 commonly used server ports and the associated services:
+
+1. Port 20/21 - FTP (File Transfer Protocol)
+2. Port 22 - SSH (Secure Shell)
+3. Port 25 - SMTP (Simple Mail Transfer Protocol)
+4. Port 53 - DNS (Domain Name System)
+5. Port 80 - HTTP (Hypertext Transfer Protocol)
+6. Port 443 - HTTPS (Hypertext Transfer Protocol Secure)
+7. Port 110 - POP3 (Post Office Protocol v3)
+8. Port 143 - IMAP (Internet Message Access Protocol)
+9. Port 3306 - MySQL Database Server
+10. Port 3389 - RDP (Remote Desktop Protocol)
